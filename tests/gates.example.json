@@ -1,0 +1,8 @@
+{
+  "roundCap": 3,
+  "judges": { "allow": ["independent-judge", "blind-player"], "deny": ["designer", "art-director"] },
+  "gates": [
+    { "id": "greybox-fun", "heading": "Greybox fun gate|6-0", "exemptable": false },
+    { "id": "final-polish", "heading": "7-E", "closure": "new\\s+consensus\\s+findings?\\s*[:=]?\\s*(\\d+)" }
+  ]
+}
